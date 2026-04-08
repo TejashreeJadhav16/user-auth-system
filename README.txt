@@ -1,15 +1,15 @@
-# User Authentication System
+User Authentication System
 
-## 📌 Project Overview
+1. Project Overview
 I developed a User Registration and Login system using Core PHP, MySQL, jQuery, and AJAX. The application allows users to register, log in, and access a dashboard without page reloads using AJAX.
 
-## 🔐 Security Features
+2. Security Features
 - Password hashing using `password_hash()`
 - Password verification using `password_verify()`
 - Prepared statements to prevent SQL Injection
 - Google reCAPTCHA integration for bot protection
 
-## ⚙️ Features
+3. Features
 - User Registration & Login
 - AJAX-based form submission (no page reload)
 - Dashboard with user details
@@ -17,23 +17,23 @@ I developed a User Registration and Login system using Core PHP, MySQL, jQuery, 
 - Change password feature
 - Session-based authentication
 
-## 🧩 Tech Stack
+4.Tech Stack
 - PHP (Core PHP)
 - MySQL
 - jQuery & AJAX
 - HTML, CSS
 
-## 📁 Project Structure
+5. Project Structure
 - `config/` → Database connection
 - `ajax/` → Backend logic (login/register)
 - `dashboard/` → Dashboard, profile, settings
 - `database.sql` → Database file
 
-## 🚀 How to Run
+6. How to Run
 1. Import `database.sql` in phpMyAdmin
 2. Place project in XAMPP `htdocs`
 3. Start Apache & MySQL
 4. Open `http://localhost/user-auth/`
 
-## 📌 Conclusion
+Conclusion
 This project demonstrates backend development, AJAX integration, database handling, and security practices in a real-world authentication system.
