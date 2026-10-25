@@ -1,39 +1,46 @@
-User Authentication System
+# 🔐 User Authentication System
 
-1. Project Overview
-I developed a User Registration and Login system using Core PHP, MySQL, jQuery, and AJAX. The application allows users to register, log in, and access a dashboard without page reloads using AJAX.
-
-2. Security Features
-- Password hashing using `password_hash()`
-- Password verification using `password_verify()`
-- Prepared statements to prevent SQL Injection
-- Google reCAPTCHA integration for bot protection
-
-3. Features
-- User Registration & Login
-- AJAX-based form submission (no page reload)
+A secure web application built using Core PHP, MySQL, jQuery, and AJAX for user registration, login, and profile management without page reloads.
+[![Architecture diagram of tejashreejadhav16/user-auth-system](https://gitdiagram.com/tejashreejadhav16/user-auth-system/diagram.png)](https://gitdiagram.com/tejashreejadhav16/user-auth-system?utm_source=readme&utm_medium=picture)
+## ✨ Features
+- User registration and login
+- AJAX-based form submission
 - Dashboard with user details
-- Profile view & edit functionality
-- Change password feature
+- Profile view and edit
+- Change password
 - Session-based authentication
+- Password hashing and verification
+- Prepared statements to prevent SQL injection
+- Google reCAPTCHA integration
 
-4.Tech Stack
+## 🛠️ Tech Stack
 - PHP (Core PHP)
 - MySQL
 - jQuery & AJAX
-- HTML, CSS
+- HTML5 & CSS3
+- Google reCAPTCHA
 
-5. Project Structure
-- `config/` → Database connection
-- `ajax/` → Backend logic (login/register)
-- `dashboard/` → Dashboard, profile, settings
-- `database.sql` → Database file
+## 📂 Project Structure
+```text
+user-auth/
+├── config/
+├── ajax/
+├── dashboard/
+├── database.sql
+└── README.md
+```
 
-6. How to Run
-1. Import `database.sql` in phpMyAdmin
-2. Place project in XAMPP `htdocs`
-3. Start Apache & MySQL
-4. Open `http://localhost/user-auth/`
+## ⚙️ Installation & Running
 
-Conclusion
-This project demonstrates backend development, AJAX integration, database handling, and security practices in a real-world authentication system.
+1. Clone the repository:
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+2. Move the project into `C:\xampp\htdocs\user-auth`.
+3. Start Apache and MySQL in XAMPP.
+4. Import `database.sql` using [phpMyAdmin](http://localhost/phpmyadmin).
+5. Configure database credentials in the `config/` directory.
+6. Open the application:
+
+   `http://localhost/user-auth/`
+
