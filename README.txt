@@ -4,9 +4,7 @@ A secure web application built using Core PHP, MySQL, jQuery, and AJAX for user 
 
 ## 🏗️ Architecture
 
-Explore the repository structure and code organization through the interactive GitDiagram.
-
-[![Architecture Diagram](https://gitdiagram.com/tejashreejadhav16/user-auth-system/diagram.png)](https://gitdiagram.com/tejashreejadhav16/user-auth-system?utm_source=readme&utm_medium=picture)
+[![User Authentication System Architecture](https://gitdiagram.com/tejashreejadhav16/user-auth-system/diagram.png)](https://gitdiagram.com/tejashreejadhav16/user-auth-system)
 
 ## ✨ Features
 
